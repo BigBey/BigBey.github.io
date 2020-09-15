@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бей Святослав M33031</title>
+    <link href="assets/css/outlines.css" rel="stylesheet">
+    <meta name="keywords" content="Резюме, Android developer, Android, Бей, Святослав">
+</head>
+<body>
+<header>
+    <section class="sec1" title="main">
+        <a name="main"></a>
+        <div class="menu">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#main"><img src="assets/images/internet.svg" height="75" width="75"></a></li>
+                    <li><a href="#about_me"><img src="assets/images/info.svg" height="75" width="75"></a></li>
+                    <li><a href="#education"><img src="assets/images/people.svg" height="75" width="75"></a></li>
+                    <li><a href="#skills"><img src="assets/images/professional.svg" height="75" width="75"></a></li>
+                    <li><a href="#projects"><img src="assets/images/project.svg" height="75" width="75"></a></li>
+                    <li><a href="#contacts"><img src="assets/images/contact.svg" height="75" width="75"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <section title="my_photo" class="my_photo">
+            <img src="assets/images/me_tallin.jpg" height="250" width="250">
+        </section>
+        <article title="my_goal" class="my_goal">
+            <h2>ЦЕЛИ И СТРЕМЛЕНИЯ</h2>
+            <pre>Моей целью является улучшение уже
+имеющихся навыков, получение новых знаний,
+а ткаже создание и запуск собственного
+мультплатформенного приложения с большим и
+полезным функционалом.</pre>
+            <hr>
+            <h2>ФОРМУЛА УСПЕХА</h2>
+            <p>ТРУД<sup>2</sup>&timesЗНАНИЯ&timesВРЕМЯ<sub>работы</sub> =УСПЕХ</p>
+        </article>
+    </section>
+</header>
+<main>
+    <section class="sec1" title="about_me"><a name="about_me"></a>
+        <article>
+            <h2>ОБО МНЕ</h2>
+            <section title="my_achievments">
+                <img src="assets/images/coding.jpg">
+                <p>Обучаюсь на <del>втором</del> третьем курсе в <strong>университете ИТМО</strong> на<i>факультете
+                    информационных технологий и программирования</i><b>(ИТиП)</b> на
+                    специальности <ins>информационные системы</ins>(ИС). Моим основным увлечением
+                    в данный момент является <strong>Android разработка</strong>. Постоянно развиваюсь в
+                    данной области. Принимаю участие в хакатонах. На счету <b>уже 2</b>. В одном
+                    из них одержана <em>победа</em>. Также прошел в <b>финал</b> чемпионата Вконтакте по
+                    программированию <strong>VK Cup</strong>.</p>
+                <h3>ДОСТИЖЕНИЯ НА ДАННЫЙ МОМЕНТ:</h3>
+                <ul>
+                    <li><strong>5</strong> проектов на фрилансе</li>
+                    <li><strong>2</strong> хакатона</li>
+                    <li><strong>1</strong> VK Cup</li>
+                </ul>
+            </section>
+            <section title="sample_code">
+                <h3>МОЙ ОБРАЗЦОВЫЙ КОД</h3>
+                <pre><code> public static Triplet&#60Integer, Integer, Integer> findMaximumSubarray(int[] array, int low, int high) {
+        int sum, maxLeft, maxRight, sumOfSubarray;
+        sum = array[low];
+        sumOfSubarray = array[low];
+        maxLeft = low;
+        maxRight = low;
+        for (int j = low; j <= high - 1; j++) {
+            if (array[j + 1] > 0) {
+                if (sum < 0 && sumOfSubarray < array[j + 1]) {
+                    sum = array[j + 1];
+                    sumOfSubarray = array[j + 1];
+                    maxLeft = j + 1;
+                    maxRight = j + 1;
+                } else if (sum + array[j + 1] > sumOfSubarray) {
+                    sum = sum + array[j + 1];
+                    sumOfSubarray = sum;
+                    maxRight = j + 1;
+                }else{
+                    sum = sum + array[j + 1];
+                }
+            } else {
+                sum = sum + array[j + 1];
+            }
+        }
+        return new Triplet&#60Integer, Integer, Integer>(maxLeft, maxRight, sumOfSubarray);
+    }</code></pre>
+                <img src="assets/images/chair.jpg">
+            </section>
+        </article>
+    </section>
+    <section class="sec1" title="education"><a name="education"></a>
+        <article title="education">
+            <h2>ОБРАЗОВАНИЕ</h2>
+            <ul>
+                <li><b>2014-2018</b>        <ins>ПФМЛ № 239</ins>
+                    <h3>Плюсы:</h3>
+                <ol>
+                    <li><h4>Лучшая школа России</h4></li>
+                    <li><h4>Мощное олимпиадное движение</h4></li>
+                    <li><h4>В школе мне дали расширенные знания в областях математики, информатики и физики</h4></li>
+                </ol></li>
+                <li><b>2018-2022</b>       <ins>Университет ИТМО</ins>
+                    <h3>Плюсы:</h3>
+                    <ol>
+                        <li><h4>Базовые знания по самым важным для любого программиста дисциплинам: </h4>
+                            <ol>
+                                <li>Алгоритмы и структуры данных</li>
+                                <li>Математический анализ</li>
+                                <li>Математическая статистика</li>
+                                <li>Линейная алгебра</li>
+                                <li>Дискретная математика</li>
+                                <li>Программирование на C, C++, Java, C#.</li>
+                                <li>Объектно-ориентированное программирование(ООП).</li>
+                            </ol>
+                        </li>
+                        <li><h4>Участие в хакатонах</h4></li>
+                        <li><h4>Углубленное изучение английского</h4></li>
+                    </ol>
+                </li>
+            </ul>
+        </article>
+        <article title="extracurricular_activities">
+            <tl>
+                <tt></tt>
+            </tl>
+        </article>
+    </section>
+    <section class="sec1" title="skills"><a name="skills"></a></section>
+    <section class="sec1" title="projects"><a name="projects"></a></section>
+    <section class="sec1" title="contacts"><a name="contacts"></a></section>
+</main>
+<footer></footer>
+</body>
+</html>
