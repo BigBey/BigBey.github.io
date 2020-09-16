@@ -146,3 +146,25 @@ ul.menu li {
 div.menu{
     display: inline-block;
 }
+
+progress {
+  background: #fac;
+  color: #e0a;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-size: auto;
+}
+
+progress::-webkit-progress-bar {
+background: #fac;
+}
+
+progress::-moz-progress-bar {
+background: #e0a;
+}
+
+progress::-webkit-progress-value {
+background: #e0a;
+}
