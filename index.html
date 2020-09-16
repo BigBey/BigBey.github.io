@@ -22,8 +22,20 @@
                 </ul>
             </nav>
         </div>
-        <section title="my_photo" class="my_photo">
-            <img src="assets/images/me_tallin.jpg" height="250" width="250">
+        <section title="photo_and_useful_links">
+            <div title="my_photo" class="my_photo">
+                <img src="assets/images/me_tallin.jpg" height="250" width="250">
+                <h2>БЕЙ СВЯТОСЛАВ</h2>
+                <h3>MOBILE DEVELOPER</h3>
+            </div>
+            <section title="useful_links">
+                <ul>
+                    <li><a href="https://github.com/BigBey"><img src="assets/images/github.svg" width="50"
+                                                      height="50"></a></li>
+                    <li><a href="https://t.me/bey_sviatoslav"><img src="assets/images/telegram.svg" width="50"
+                                                                 height="50"></a></li>
+                </ul>
+            </section>
         </section>
         <article title="my_goal" class="my_goal">
             <h2>ЦЕЛИ И СТРЕМЛЕНИЯ</h2>
@@ -35,6 +47,15 @@
             <hr>
             <h2>ФОРМУЛА УСПЕХА</h2>
             <p>ТРУД<sup>2</sup>&timesЗНАНИЯ&timesВРЕМЯ<sub>работы</sub> =УСПЕХ</p>
+            <hr>
+            <h2>ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ</h2>
+            <ul>
+                <li>День рождения: <time datetime="2000-11-07">11.07.2000</time></li>
+                <li>Телефон: +7-921-399-34-20</li>
+                <li>Адрес: г. Санкт-Петербург, Российская Федерация</li>
+                <li>Email: bey.sviatoslav@yandex.ru</li>
+                <li>Сайт: https://bigbey.github.io/</li>
+            </ul>
         </article>
     </section>
 </header>
@@ -94,14 +115,14 @@
         <article title="education">
             <h2>ОБРАЗОВАНИЕ</h2>
             <ul>
-                <li><b>2014-2018</b>        <ins>ПФМЛ № 239</ins>
+                <li><b><time datetime="2014">2014</time>-<time datetime="2018">2018</time></b>        <ins>ПФМЛ № 239</ins>
                     <h3>Плюсы:</h3>
                 <ol>
                     <li><h4>Лучшая школа России</h4></li>
                     <li><h4>Мощное олимпиадное движение</h4></li>
                     <li><h4>В школе мне дали расширенные знания в областях математики, информатики и физики</h4></li>
                 </ol></li>
-                <li><b>2018-2022</b>       <ins>Университет ИТМО</ins>
+                <li><b><time datetime="2018">2018</time>-<time datetime="2022">2022</time></b>       <ins>Университет ИТМО</ins>
                     <h3>Плюсы:</h3>
                     <ol>
                         <li><h4>Базовые знания по самым важным для любого программиста дисциплинам: </h4>
@@ -122,14 +143,77 @@
             </ul>
         </article>
         <article title="extracurricular_activities">
-            <tl>
-                <tt></tt>
-            </tl>
+            <h2>ВНЕУЧЕБНАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+            <dl>
+                <dt><time datetime="2019-10">октябрь 2019</time>-<time datetime="2020-04">апрель 2020</time></dt>
+                    <dd>финалист в треке Mobile</dd>
+                <dt><time datetime="2020-03-13">13-15 марта 2020</time>    Хакатон ML Hack</dt>
+                    <dd>1 место в треке Voice Processing</dd>
+                <dt><time datetime="2020-05-03">3-5 мая 2020</time>    Хакатон Virus Hack</dt>
+                    <dd>2 место в треке Медицина в Мегаполисе</dd>
+            </dl>
         </article>
     </section>
-    <section class="sec1" title="skills"><a name="skills"></a></section>
-    <section class="sec1" title="projects"><a name="projects"></a></section>
-    <section class="sec1" title="contacts"><a name="contacts"></a></section>
+    <section class="sec1" title="skills"><a name="skills"></a>
+    <article>
+        <h2>Мои навыки</h2>
+        <dl>
+            <dt>Java</dt>
+                <dd><progress value="0.9"></progress></dd>
+            <dt>Kotlin</dt>
+                <dd><progress value="0.8"></progress></dd>
+            <dt>Dart</dt>
+            <dd><progress value="0.7"></progress></dd>
+            <dt>Android SDK</dt>
+            <dd><progress value="0.9"></progress></dd>
+            <dt>Gradle/Maven</dt>
+            <dd><progress value="0.9"></progress></dd>
+            <dt>RxJava</dt>
+            <dd><progress value="0.7"></progress></dd>
+            <dt>Retrofit</dt>
+            <dd><progress value="0.6"></progress></dd>
+            <dt>Flutter</dt>
+            <dd><progress value="0.8"></progress></dd>
+            <dt>Алгоритмы и структуры данных</dt>
+            <dd><progress value="0.8"></progress></dd>
+            <dt>Базы данных</dt>
+            <dd><progress value="0.8"></progress></dd>
+            <dt>Администрирование</dt>
+            <dd><progress value="0.8"></progress></dd>
+            <dt>Latex</dt>
+            <dd><progress value="0.9"></progress></dd>
+            <dt>Git</dt>
+            <dd><progress value="0.9"></progress></dd>
+            <dt>Figma</dt>
+            <dd><progress value="0.9"></progress></dd>
+        </dl>
+    </article>
+    </section>
+    <section class="sec1" title="projects"><a name="projects"></a>
+    <article>
+        <h2>МОИ ПРОЕКТЫ</h2>
+        <dl>
+            <dt><b>Приложение для московских школ робототехники</b></dt>
+                <dd>Данное приложение призвано облегчить преподавателям, ученикам и их родителям отслеживание и получение данных об оценках и расписании занятий.</dd>
+            <dt><b>Приложение Women's Calendar</b></dt>
+                <dd>Приложение помогает следить за женским здоровьем, содержит в себе интерактивный календарь, заметки и уведомления.</dd>
+        </dl>
+    </article>
+    </section>
+    <section class="sec1" title="contacts"><a name="contacts"></a>
+        <article>
+            <h2>СВЯЗАТЬСЯ СО МНОЙ</h2>
+            <form>
+                <fieldset>
+                    <input type =  "text" name = "firstname" placeholder="ФИО"> <br> <br>
+                    <input type =  "email" name = "email" placeholder="Email"> <br> <br>
+                    <input type =  "tel" name = "telephone_number" placeholder="+7-(XXX)-(XXX)-(XX)-(XX)"> <br> <br>
+                    <input type =  "text" name = "message" placeholder="Сообщение"> <br> <br>
+                    <input type = "submit" name = "submit" value = "отправить">
+                </fieldset>
+            </form>
+        </article>
+    </section>
 </main>
 <footer></footer>
 </body>
