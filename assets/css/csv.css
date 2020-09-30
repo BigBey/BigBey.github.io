@@ -1,0 +1,376 @@
+@font-face{
+   font-family: Rubik;
+   src: url(../fonts/Rubik.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+}
+
+.sec1{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32pt;
+}
+
+header{
+    background: url(../images/mountains.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul.menu{
+    display: flex;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+li.menu{
+    margin-left: 150px;
+}
+
+#resume{
+    display: flex;
+}
+
+#photo_and_useful_links{
+    margin: 100px;
+    list-style-type: none;
+}
+
+#my_photo_frame{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    border: 10px solid #fff;
+}
+
+#my_photo{
+    border-radius: 150px; /* Радиус скругления */
+    border: 3px solid white; /* Параметры рамки */
+}
+
+.main{
+    color: white;
+}
+
+#name, #post{
+    text-align: center;
+}
+
+#name{
+    margin: 10px;
+    font: Rubik;
+}
+
+#post{
+    color: #FFC224
+}
+
+section.useful_links{
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul.useful_links{
+    display: flex;
+    list-style-type: none;
+}
+
+li.useful_links{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#info{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+h2.main,ul.main{
+    margin-top: 10px;
+}
+
+h2.main{
+    text-align: center;
+}
+
+hr.main{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: white;
+    height: 3px;
+}
+
+pre.main{
+    margin-top: 20px;
+}
+
+h2.about_me, h3.sample_code, h3.my_achievments{
+    color: #06B8DF;
+}
+
+h2.about_me{
+    text-align: center;
+}
+
+div.about_me{
+    display: flex;
+}
+
+article.sample_code, article.my_achievments{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+h3.sample_code{
+    margin-top: 10px;
+}
+
+pre.sample_code{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #FF6C01;
+}
+
+div.my_achievments_frame{
+     border: 1px solid #FF6C01;
+     margin: 5px;
+     padding: 5px;
+}
+
+h3.my_achievments{
+    text-align: center;
+}
+
+ul.my_achievments{
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+li.my_achievments{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color: #06B8DF;
+}
+
+strong.my_achievments{
+    color: #FF6C01;
+    font-size: 32pt;
+}
+
+#education{
+    background: no-repeat center center fixed;
+    background-color: #444141;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+h2.education, h2.extracurricular_activities{
+    color: #06B8DF;
+}
+
+ul.education,dl.extracurricular_activities{
+    margin-left: 100px;
+}
+
+ol.pluses{
+    margin-left: 50px;
+}
+
+ol.knowledges{
+    margin-left: 50px;
+}
+
+dt.extracurricular_activities, dd.extracurricular_activities{
+    margin-top: 10px;
+    font-size: 20pt;
+}
+
+dd.extracurricular_activities{
+    margin-left: 200px;
+    color: #FFD700;
+}
+
+#skills{
+    background: url(../images/skills.png) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: #06B8DF;
+}
+
+h2.skills{
+    margin-top: 0;
+}
+
+article.skills{
+    display: flex;
+}
+
+dl.skills{
+    margin-left: 200px;
+    font-size: 28pt;
+}
+
+progress {
+  /* стилевые правила */
+  border: 0;
+  color: #06B8DF;
+}
+progress::-webkit-progress-bar {
+  border: 0;
+  border-radius: 10px;
+  background-color: transparent;
+}
+progress::-webkit-progress-value {
+  border: 0;
+  border-radius: 10px;
+  background-color: #06B8DF;
+}
+progress::-moz-progress-bar {
+  border: 0;
+  color: #06B8DF;
+}
+
+#projects{
+    width: 100vw;
+    height: 100vh;
+}
+
+h2.projects{
+    color: #06B8DF;
+}
+
+dl.projects{
+    margin-left: 200px;
+    font-size: 24pt;
+}
+
+dt.projects{
+    color: #40A3FF;
+    margin-top: 100px;
+}
+
+dd.projects{
+    margin-left: 100px;
+}
+
+#contacts{
+    background: url(../images/contact_me.png) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+}
+
+h2.contacts{
+    margin-top: 0;
+    color: white;
+}
+
+form.contacts{
+    display: inline-block;
+}
+
+.first_column{
+    margin-left: 50px;
+    float: left;
+    border: 0;
+}
+
+.second_column{
+    margin-left: 50px;
+    float: left;
+    border: 0;
+}
+
+input.contacts{
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    width: 800px;
+    height: 104px;
+    font-size: 48pt;
+}
+
+.message{
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    text-align: top;
+    width: 500px;
+    height: 250px;
+    font-size: 48pt;
+}
+
+.submit{
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    text-align: top;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+}
+
+footer{
+    padding: 10px;
+}
+
+ul.extra_info{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+}
+
+li.extra_info{
+    mar
+}
+
+#location{
+margin-left: 50px;
+}
+
+#phone{
+margin-right: 50px;
+}
+
+h4.extra_info{
+    color: #06B8DF;
+}
+
+h5.extra_info{
+    color: #0490AF;
+}
