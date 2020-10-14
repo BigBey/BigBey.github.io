@@ -35,7 +35,20 @@ ul.menu{
 }
 
 li.menu{
-    margin-left: 150px;
+    margin: auto;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+
+li.menu:hover {
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-ms-transition: all 0.4s;
+-o-transition: all 0.4s;
+transition: all 0.4s;
+opacity:1;
+filter:alpha(opacity=100);
 }
 
 #resume{
@@ -95,7 +108,20 @@ ul.useful_links{
 li.useful_links{
     padding-left: 20px;
     padding-right: 20px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
 }
+
+li.useful_links:hover {
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-ms-transition: all 0.4s;
+-o-transition: all 0.4s;
+transition: all 0.4s;
+opacity:1;
+filter:alpha(opacity=100);
+}
+
 
 #info{
     margin-top: 90px;
@@ -278,6 +304,27 @@ dt.projects{
 
 dd.projects{
     margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+img.icon{
+    margin-left: 50px;
+}
+
+.icon {
+opacity:0.5;
+filter:alpha(opacity=50);
+}
+
+.icon:hover {
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-ms-transition: all 0.4s;
+-o-transition: all 0.4s;
+transition: all 0.4s;
+opacity:1;
+filter:alpha(opacity=100);
 }
 
 #contacts{
@@ -297,6 +344,7 @@ h2.contacts{
 
 form.contacts{
     display: inline-block;
+     justify-content: space-between;
 }
 
 .first_column{
@@ -307,7 +355,7 @@ form.contacts{
 
 .second_column{
     margin-left: 50px;
-    float: left;
+    float: right;
     border: 0;
 }
 
@@ -351,20 +399,12 @@ ul.extra_info{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    align-content: space-between;
+    align-items: center;
     text-align: center;
 }
 
 li.extra_info{
-    mar
-}
-
-#location{
-margin-left: 50px;
-}
-
-#phone{
-margin-right: 50px;
+    margin: auto;
 }
 
 h4.extra_info{
